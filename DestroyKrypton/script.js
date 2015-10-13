@@ -1,0 +1,11 @@
+$(document).ready(function(){
+    $('div').hover(function(){
+        $('div').addClass('red');
+    },
+    function(){
+        $('div').removeClass('red');
+    });
+    $('div').click(function(){
+        $('div').effect('explode');
+    });
+});
